@@ -10,8 +10,8 @@ int main(int argc, char* argv[])
 	}
 
 
-	std::cout << "answer 1:" << day1(argv[1]) << std::endl;;
-	std::cout << "answer 2:" << day1_2(argv[1]) << std::endl;;
+	std::cout << "answer 1:" << day2(argv[1]) << std::endl;;
+	std::cout << "answer 2:" << day2_2(argv[1]) << std::endl;;
 
 	return 0;
 
