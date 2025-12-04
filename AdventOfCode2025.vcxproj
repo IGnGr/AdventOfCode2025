@@ -142,6 +142,8 @@ xcopy /Y /I /E "$(ProjectDir)inputFiles\*.*" "$(OutDir)inputFiles\"
     <ClCompile Include="AdventOfCode2025.cpp" />
     <ClCompile Include="Day1.cpp" />
     <ClCompile Include="Day2.cpp" />
+    <ClCompile Include="Day3.cpp" />
+    <ClCompile Include="Day4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

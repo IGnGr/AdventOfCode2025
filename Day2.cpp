@@ -80,12 +80,12 @@ cpp_int day2_2(std::string path) {
 
 	std::ifstream in(path); // the in flag is optional
 
-	if (!in.is_open()) {
+	if (!in.is_open()) { 
 		return -1;
 	}
 
 
-	cpp_int ans = 0;
+	unsigned long long ans = 0;
 
 	char separator = ',';
 	string line;
